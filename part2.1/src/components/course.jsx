@@ -1,3 +1,5 @@
+import Total from "./total";
+
 const Course = ({ course }) => {
   return (
     <div>
@@ -9,6 +11,7 @@ const Course = ({ course }) => {
           </div>
         ))}
       </div>
+      <Total parts={course.parts} />
     </div>
   );
 };
