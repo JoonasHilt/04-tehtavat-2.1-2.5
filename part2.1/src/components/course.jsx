@@ -2,13 +2,13 @@ const Course = ({ course }) => {
   return (
     <div>
       <h2>{course.name}</h2>
-      <ul>
+      <div>
         {course.parts.map((part) => (
-          <li key={part.id}>
+          <div key={part.id}>
             {part.name}: {part.exercises} exercises
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
