@@ -7,7 +7,7 @@ const Course = ({ course }) => {
       <div>
         {course.parts.map((part) => (
           <div key={part.id}>
-            {part.name}: {part.exercises}
+            {part.name} {part.exercises}
           </div>
         ))}
       </div>
