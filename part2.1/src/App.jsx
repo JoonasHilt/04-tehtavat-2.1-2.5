@@ -1,3 +1,4 @@
+//import course from components folder
 import Course from "./components/course";
 
 const App = () => {
